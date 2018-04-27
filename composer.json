@@ -1,0 +1,22 @@
+{
+    "name": "numbervine/yii2-misc-utils",
+    "description": "Miscellaneous common utility functions for internal use in yii2 application",
+    "keywords": ["yii2", "extension", "widget", "module", "utility"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Varghese",
+            "email": "numbervine.public@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2-mongodb": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "numbervine\\miscutils\\": "src"
+        }
+    }
+}
